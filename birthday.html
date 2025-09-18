@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Happy Birthday</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Trebuchet MS', sans-serif;
+            background: linear-gradient(135deg, #f6d365, #fda085);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .birthday-card {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0px 6px 20px rgba(0,0,0,0.25);
+            position: relative;
+        }
+        h1 {
+            font-size: 2.5em;
+            color: #ff4081;
+            margin-bottom: 15px;
+        }
+        p {
+            font-size: 1.2em;
+            color: #444;
+        }
+        .balloons {
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <div class="birthday-card">
+        <div class="balloons">🎈🎉🎂🎁🎈</div>
+        <h1>Happy Birthday, {{ name }}! 🥳</h1>
+        <p>Wishing you joy, laughter, and lots of fun!</p>
+        <div class="balloons">🎈🎁🎂🎉🎈</div>
+    </div>
+</body>
+</html>
